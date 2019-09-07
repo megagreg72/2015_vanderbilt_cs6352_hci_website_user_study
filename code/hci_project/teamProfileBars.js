@@ -1,0 +1,34 @@
+$(document).ready(function () {
+    var mon = Number(document.getElementById('Monday').getAttribute('value'));
+    var tue = Number(document.getElementById('Tuesday').getAttribute('value'));
+    var wed = Number(document.getElementById('Wednesday').getAttribute('value'));
+    var thr = Number(document.getElementById('Thursday').getAttribute('value'));
+    var fri = Number(document.getElementById('Friday').getAttribute('value'));
+    var sat = Number(document.getElementById('Saturday').getAttribute('value'));
+    var sun = Number(document.getElementById('Sunday').getAttribute('value'));
+        myData = new Array(['Mon', mon], ['Tues', tue], ['Wed', wed], 
+                       ['Thurs', thr], ['Fri', fri], ['Sat', sat], ['Sun', sun]);
+        var myChart = new JSChart('profileDayGraph', 'bar');
+        myChart.setDataArray(myData);
+        myChart.setBarColor('#997F3D');
+        myChart.setBarValuesColor('#000000');
+        //myChart.setTitlePosition('left');
+        myChart.setTitle('');
+        //myChart.setTitleColor('#555555');
+        myChart.setAxisColor('#555555');
+        myChart.setAxisNameColor('#000000');
+        myChart.setAxisValuesColor('#000000');
+        myChart.setAxisNameX('Days');
+        myChart.setAxisNameY('Matches');
+        //myChart.setTitleFontSize(16);
+        myChart.setAxisNameFontSize(16);
+        myChart.setAxisValuesFontSize(16);
+        myChart.setAxisPaddingBottom(50);
+        myChart.setAxisPaddingLeft(70);
+        myChart.setBarValuesFontSize(16);
+        myChart.setLabelFontSize(16);
+        myChart.setLegendFontSize(16);
+        myChart.setTextPaddingTop(30);
+        myChart.setSize(450, 225);
+        myChart.draw();
+});

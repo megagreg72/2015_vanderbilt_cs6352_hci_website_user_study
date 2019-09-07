@@ -1,0 +1,219 @@
+* {margin:0px;  padding:0px;}
+body {
+    background-color: #dddddd;
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #000000; 
+}
+
+.header {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+#header {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+.userMenu {
+    float: right;
+    background-color: #997F3D;
+    padding: 5px 10px;
+    font-size: 120%;
+}
+
+#userMenu {
+    float: right;
+    background-color: #997F3D;
+    padding: 5px 10px;
+    font-size: 120%;
+}
+
+.userMenuSelected {
+    float: right;
+    text-decoration: underline;
+    background-color: #997F3D;
+    padding: 5px 10px;
+    font-size: 120%;
+}
+
+#userMenuSelected {
+    float: right;
+    text-decoration: underline;
+    background-color: #997F3D;
+    padding: 5px 10px;
+    font-size: 120%;
+}
+ 
+.userMenu  a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#userMenu  a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.userMenu  a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#userMenu  a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.teamMenu {
+    float: left;
+    background-color: #997F3D;
+    padding: 5px 10px;
+    font-size: 120%;
+}
+
+#teamMenu {
+    float: left;
+    background-color: #997F3D;
+    padding: 5px 10px;
+    font-size: 120%;
+}
+
+.teamMenuSelected {
+    float: left;
+    text-decoration: underline;
+    background-color: #997F3D;
+    padding: 5px 10px;
+    font-size: 120%;
+}
+
+#teamMenuSelected {
+    float: left;
+    text-decoration: underline;
+    background-color: #997F3D;
+    padding: 5px 10px;
+    font-size: 120%;
+}
+ 
+.teamMenu  a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#teamMenu  a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.teamMenu  a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#teamMenu  a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.content {
+    padding: 10px;
+    font-size: 120%;
+}
+
+#content {
+    padding: 10px;
+    font-size: 120%;
+}
+
+#header2 {
+    padding-bottom: 10px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.header2 {
+    padding-bottom: 10px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#header3 {
+    padding-bottom: 10px;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.header3 {
+    padding-bottom: 10px;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#list {
+    padding-left: 30px;
+}
+
+.list {
+    padding-left: 30px;
+}
+
+#item {
+    padding-bottom: 10px;
+}
+
+.item {
+    padding-bottom: 10px;
+}
+
+#button {
+    font-size: 120%;
+}
+
+.button {
+    font-size: 120%;
+}
+
+#smallButton {
+    font-size: 101%;
+}
+
+.smallButton {
+    font-size: 101%;
+}
+
+#box {
+    font-size: 110%;
+}
+
+.box {
+    font-size: 110%;
+}
+
+#footer {
+    padding: 5px;
+    margin-top: 10px;
+    border-top: 1px solid #997F3D;
+}
+
+.footer {
+    padding: 5px;
+    margin-top: 10px;
+    border-top: 1px solid #997F3D;
+}

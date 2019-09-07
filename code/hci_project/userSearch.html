@@ -1,0 +1,40 @@
+<link type="text/css" rel="stylesheet" href="style.css">
+<html>
+  <head> 
+    <title>LoL Dream Team</title>
+  </head> 
+  <body>
+  <div id="header">
+    <a href="./index.html">LoL Dream Team</a>
+  </div>
+  <div id="menu">
+    <a href="./login_form.php" 
+       style="float:left; margin-right:10px;">Team Login</a>
+    <a href="./register.php"
+       style="float:left; margin-right:10px;">Team Register</a>
+    <a href="./teamProfile.php"
+       style="float:left; margin-right:10px;">Team Profile</a>
+    <a href="./teamApplicants.php" 
+       style="float:left; margin-right:10px;">Team Applicants</a>
+
+    <a href="./userSearch.html"
+       style="float:right; margin-left:10px; text-decoration:underline;">Find a Team</a>
+    <p style="display:inline; color:#997F3D;">|</p>
+  </div> 
+  <div id="content">
+      <div id="header2"> Find a Team</div>
+      <div id="item">
+Enter your League of Legends summoner name to see team matches selected based on your player profile.
+      </div>
+      <form action="searchTeam.php" method="post" name="user_login_form">
+        LoL username:<br>
+        <input type="text" id="box" name="username" size="30">
+        <input type="submit" id="button"value="Search"/>
+      </form>
+      </div>
+    </div>
+    <div id="footer">
+Copyright Brian Gauch 2015 
+    </div>
+  </body> 
+</html>
